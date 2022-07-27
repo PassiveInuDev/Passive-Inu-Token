@@ -713,6 +713,59 @@
       "artifacts": [
         "IERC20"
       ]
+    },
+    "/Users/jessicagreene/Desktop/Git Hub/Passive-Inu-Token/contracts/PassiveInu.sol": {
+      "lastModificationDate": 1658960573610,
+      "contentHash": "592d5282ee91807bd34c571b696bd0b0",
+      "sourceName": "contracts/PassiveInu.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Clones",
+        "CoinToken",
+        "Context",
+        "DividendPayingToken",
+        "DividendPayingTokenInterface",
+        "DividendPayingTokenOptionalInterface",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata",
+        "IERC721",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02",
+        "Ownable",
+        "SafeMath",
+        "SafeMathInt",
+        "SafeMathUint",
+        "TokenDividendTracker"
+      ]
     }
   }
 }
