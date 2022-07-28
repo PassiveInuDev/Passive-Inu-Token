@@ -6,11 +6,11 @@ async function main() {
     console.log("Account balance:", (await deployer.getBalance()).toString());
 
     //const Token = await ethers.getContractFactory("SomethingSomething");
-    const Token = await ethers.getContractFactory("GenericNFTPumpContract");
+    const Token = await ethers.getContractFactory("PassiveInu");
     //const token = await Token.deploy('0x079f1BaC0025ad71Ab16253271ceCA92b222C614');
     const token = await Token.deploy(
-    'NFT Pump Contract',
-    'NFTPUMP',
+    'Passive Inu',
+    'PINU',
     '0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a',
     '0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a',
     'https://techoshiprojects.s3.amazonaws.com/Path/json/',

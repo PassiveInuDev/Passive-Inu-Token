@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "GenericNFTPumpContract",
-  "sourceName": "contracts/GenericNFTPumpContract.sol",
+  "contractName": "PassiveInu",
+  "sourceName": "contracts/PassiveInu.sol",
   "abi": [
     {
       "inputs": [
@@ -1082,7 +1082,7 @@
               "type": "uint8"
             }
           ],
-          "internalType": "struct GenericNFTPumpContract.WhitelistClaimPass",
+          "internalType": "struct PassiveInu.WhitelistClaimPass",
           "name": "whitelistClaimPass",
           "type": "tuple"
         }
