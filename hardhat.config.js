@@ -61,15 +61,15 @@ module.exports = {
   //   }
   // }
 
-  // defaultNetwork: "mainnet",
-  // etherscan: {
-  //   apiKey: ETHERSCAN_API_KEY,
-  // },
-  // networks: {
-  //   hardhat: { chainId: 25 },
-  //   mainnet: {
-  //     url: `https://evm-cronos.crypto.org/`,
-  //     accounts: [`0x${PK}`],
-  //   }
-  // }  
+  defaultNetwork: "mainnet",
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY,
+  },
+  networks: {
+    hardhat: { chainId: 25 },
+    mainnet: {
+      url: `https://evm-cronos.crypto.org/`,
+      accounts: [`0x${PK}`],
+    }
+  }  
 };
